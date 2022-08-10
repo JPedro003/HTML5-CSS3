@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de Caixas</title>
+    <style>
+        h1{
+            background-color: lightblue;
+            height: 300px;
+            width: 300px;
+            /*
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkblue;
+
+            A shorthand do border segue a ordem acima.
+            */
+            border: 10px solid darkblue;
+            /*É possível configurar um shorthand usando o "padding" e a sequência q é seguida é: top, right, bottom, left (como um relógio).
+
+            Quando botamos duas medidas no padding: 10px 20px; isso singinifica q o top e o bottom ficam 10px e right e left ficam 20px.
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            */
+            padding: 10px 10px 10px 10px;
+            /*
+            O shorthand da margin  segue o mesmo sentido do padding
+            */
+            margin: 20px 20px 40px 20px;
+            /*O outline é uma linha q fica em torno da margem
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+
+            O shorthando do outline segue a ordem acima.
+            */
+            outline: 5px dashed salmon;
+        }
+        a {
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>
