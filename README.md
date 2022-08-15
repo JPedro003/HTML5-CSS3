@@ -1,2 +1,2 @@
 # HTML-CSS
- Curso
+ Curso de HTML e CSS que estou estudando.
