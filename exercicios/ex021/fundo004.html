@@ -8,17 +8,25 @@
     <style>
         body {
             height: 100vh;
-            background-color: black;
+           /* background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
+
+        /* Shorthand - background
+        color > image > position > repeat > [size] > attachment
+        */
 
         main {
             background-color: white;
             padding: 10px;
-            width: 400px;
+            max-width: 400px;
             margin: auto;
             border: 1px solid darkblue;
             border-radius: 15px;
@@ -29,6 +37,8 @@
     <main>
         <h1>Teste de imagem de fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur minus quod libero harum, ullam molestiae alias iure nobis necessitatibus voluptatibus ipsa, ea a architecto aut veritatis, perspiciatis sint dignissimos suscipit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione perferendis minus dicta soluta ab illo. Fugiat quidem itaque vel culpa, dolorum soluta distinctio excepturi ea corporis. Velit optio nesciunt qui.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, unde quo voluptatum aliquid voluptatem nulla ipsam iure suscipit repudiandae amet est iste nisi magnam quam dolor nobis eum accusantium labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem magnam id saepe officiis veritatis dolore consequatur harum laborum voluptatem cum ullam aperiam, adipisci, quo blanditiis provident quam totam reprehenderit expedita!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur doloribus reprehenderit iusto molestiae vero dolorum eos, voluptatibus velit consequatur minima deleniti est a quidem illo, repellendus eveniet ducimus fugiat in!</p>
     </main>
 </body>
 </html>
