@@ -12,6 +12,12 @@
         table {
             width: 500px;
         }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            background-color: lightgray;
+            padding: 10px;
+        }
         td, th {
             border: 1px solid black;
             padding: 6px;
@@ -26,6 +32,7 @@
     <h1>Uso de tabelas grandes</h1>
     <!--
         ANATOMIA PARA TABELAS GRANDES
+            CAPTION 
             THEAD
                 TR, TD, TH
             TBODY
@@ -34,6 +41,7 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
                 <th>Estado</th>
@@ -42,8 +50,8 @@
         </thead>
         <tbody>
             <tr>
-                <td>São Paulo</td>
-                <td>41 919 049</td>
+                <td scope ="col">São Paulo</td>
+                <td scope ="col">41 919 049</td>
             </tr>
             <tr>
                 <td>Minas Gerais</td>
@@ -56,7 +64,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total da População</th>
+                <th scope="row">Total da População</th>
                 <td>0000</td>
             </tr>
         </tfoot>
